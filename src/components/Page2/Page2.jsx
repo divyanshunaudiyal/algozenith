@@ -15,14 +15,14 @@ function Page2() {
             aliquip ex ea commodo consequat.
           </p>
           <div className="image-grid">
-            <img src="public/package.png" alt="grey" />
-            <img src="public/iit.png" alt="" />
-            <img src="public/offer.png" alt="" />
-            <img src="public/rank.png" alt="" />
+            <img src="/package.png" alt="grey" />
+            <img src="/iit.png" alt="" />
+            <img src="/offer.png" alt="" />
+            <img src="/rank.png" alt="" />
           </div>
         </div>
         <div className="pricing">
-          <img src="public/pricing.png" alt="" />
+          <img src="/pricing.png" alt="" />
         </div>
       </div>
     </div>

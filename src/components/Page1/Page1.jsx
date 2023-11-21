@@ -36,7 +36,7 @@ function Page1() {
           </div>
         </div>
         <div className="img">
-          <img src="public/page1.png" alt="" />
+          <img src="/page1.png" alt="" />
         </div>
       </div>
     </div>
