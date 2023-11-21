@@ -1,0 +1,98 @@
+.container {
+  width: 100vw;
+  box-sizing: border-box;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+  &__page1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    background: linear-gradient(270deg, #05445e 0%, #022534 100%);
+    padding: 0 1rem;
+    @media screen and (max-width: 672px) {
+      padding: 0;
+      width: 672px;
+      flex-direction: column;
+    }
+
+    .text {
+      div {
+        margin-bottom: 1rem;
+        h2 {
+          font-family: Rubik;
+          font-size: 72px;
+          font-weight: 800;
+          line-height: 72px;
+          letter-spacing: -0.03em;
+          text-align: left;
+        }
+
+        .buttons {
+          @media screen and (max-width: 672px) {
+            flex-direction: column;
+          }
+          display: flex;
+          gap: 1rem;
+
+          .view {
+            border: 1px solid;
+            color: white;
+            border-image: linear-gradient(
+              45deg,
+              hsl(0, 0%, 100%),
+              rgba(255, 255, 255, 0)
+            );
+            border-image-slice: 1;
+
+            background: linear-gradient(
+              94.05deg,
+              #ffffff -161.35%,
+              rgba(255, 255, 255, 0) 99.97%
+            );
+
+            width: Fixed (235px);
+            height: 64px;
+            top: 457.24px;
+            left: 467px;
+            padding: 8px 20px 8px 20px;
+            border-radius: 8px;
+            border: 1px;
+            gap: 10px;
+          }
+        }
+      }
+      .checkbox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+
+        label {
+          display: flex;
+          align-items: center;
+          gap: 0.7rem;
+        }
+      }
+      .checkbox input[type="checkbox"] {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+
+        background: transparent;
+      }
+    }
+    .img {
+      img {
+        width: 718px;
+        top: 0;
+        height: 697px;
+        left: 1032px;
+      }
+    }
+  }
+}

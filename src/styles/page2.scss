@@ -1,0 +1,61 @@
+.container {
+  &__page2 {
+    padding: 2rem;
+    width: 100vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+
+    @media screen and (max-width: 672px) {
+      grid-template-columns: auto;
+    }
+
+    .pricing {
+      img {
+        width: 615px;
+        height: 1143px;
+      }
+    }
+
+    .text {
+      h1 {
+        font-family: Rubik;
+        font-size: 64px;
+        font-weight: bold;
+        line-height: 90px;
+        letter-spacing: -0.03em;
+        text-align: left;
+
+        @media screen and (max-width: 672px) {
+          text-align: center;
+        }
+      }
+      p {
+        font-family: DM Sans;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+        text-align: left;
+      }
+
+      span {
+        display: block;
+        color: rgb(9, 87, 121);
+      }
+      width: 100%;
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+
+        @media screen and (max-width: 672px) {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
